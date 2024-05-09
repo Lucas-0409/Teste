@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Asar&family=Exo&family=Martel&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body {
+  background-color: rgb(228, 228, 228);
+}
+.cabecalho {
+  padding: 16px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cabecalho-imagem {
+  display: block;
+  margin: 0 auto;
+  max-height: 120px;
+  border-radius: 100%;
+}
+.cabecalho-escrito {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  gap: 24px;
+}
+.cabecalho-escrito-texto {
+  color: aliceblue;
+  font-family: "Exo", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+.conteudo {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-top: 3px solid rgb(0, 33, 143);
+}
+.conteudo-primario {
+  display: flex;
+  flex-direction: column;
+  margin-top: 48px;
+  background-color: white;
+  width: 1280px;
+  height: 300px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 8px 8px rgba(0, 0, 0, 0.25);
+}
+.conteudo-primario-titulo {
+  display: block;
+  margin: 0 auto;
+  font-family: "Asar", serif;
+  font-weight: 400;
+  font-size: 48px;
+  color: rgb(68, 68, 68);
+}
+.conteudo-primario-texto {
+  display: block;
+  margin: 0 auto;
+  font-family: "Martel", serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  width: 1000px;
+}
+.conteudo-secundario {
+  display: flex;
+  flex-direction: column;
+  margin-top: 48px;
+  background-color: white;
+  width: 1280px;
+  height: 300px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 8px 8px rgba(0, 0, 0, 0.25);
+  gap: 30px;
+}
+.conteudo-secundario-titulo {
+  display: block;
+  margin: 0 auto;
+  font-family: "Asar", serif;
+  font-weight: 400;
+  font-size: 48px;
+  color: rgb(68, 68, 68);
+  margin-top: 36px;
+}
+.conteudo-secundario-subtitulo {
+  display: block;
+  margin: 0 auto;
+  font-family: "Martel", serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+}
+
+.conteudo-secundario a {
+  display: block;
+  margin: 0 auto;
+  border: 4px solid rgb(89, 188, 221);
+  background-color: white;
+  width: 120px;
+  height: 60px;
+  border-radius: 30px;
+  transition: 0.2s;
+  color: rgb(89, 188, 221);
+  font-family: "Martel", serif;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  padding: 13px;
+}
+
+.conteudo-secundario a:hover {
+  color: white;
+  background-color: rgb(89, 188, 221);
+  border-color: white;
+}
+
+@media (max-width: 1400px) {
+  .conteudo h1 {
+    font-size: 36px;
+  }
+}
